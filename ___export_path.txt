@@ -1,0 +1,16 @@
+# cordova compile for code-editor
+export PATH=$PATH:/home/holgre/.gradle/wrapper/dists/gradle-6.5-bin/6nifqtx7604sqp1q6g8wikw7p/gradle-6.5/bin/
+export ANDROID_SDK_ROOT=/opt/android-sdk
+export ANDROID_HOME=/opt/android-sdk
+export JAVA_HOME=/usr/java/default 
+
+
+in config.xml replace com.foxdebug.acodefree with com.foxdebug.acode
+
+rm platform android and add again
+
+cordova platform add android
+
+in /mnt/veracrypt1/Projekte/__mine/code-editor/platforms/android/app/src/main/res/ alles mit -land- und -hint- löschen
+
+cordova build
