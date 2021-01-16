@@ -9,8 +9,10 @@ in config.xml replace com.foxdebug.acodefree with com.foxdebug.acode
 
 rm platform android and add again
 
-cordova platform add android
+$ cordova platform rm android
 
-in /mnt/veracrypt1/Projekte/__mine/code-editor/platforms/android/app/src/main/res/ alles mit -land- und -hint- löschen
+$ cordova platform add android
+
+in /mnt/veracrypt1/Projekte/__mine/code-editor/platforms/android/app/src/main/res/ alles mit -land- / -port- / -hint- löschen
 
 cordova build
