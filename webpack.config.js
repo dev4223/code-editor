@@ -2,7 +2,7 @@ const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 // const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
-module.exports = {
+const noModule = {
   mode: 'production',
   entry: {
     main: "./src/lib/main.js",
@@ -52,3 +52,5 @@ module.exports = {
     // new BundleAnalyzerPlugin()
   ]
 };
+
+module.exports = [noModule];

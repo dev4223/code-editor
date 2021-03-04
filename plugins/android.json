@@ -48,6 +48,7 @@
       "PACKAGE_NAME": "com.foxdebug.acode"
     },
     "cordova-plugin-system": {
+      "ANDROID_SUPPORT_VERSION": "28.+",
       "PACKAGE_NAME": "com.foxdebug.acode"
     },
     "cordova-plugin-vibration": {
