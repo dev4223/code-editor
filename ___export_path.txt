@@ -1,3 +1,7 @@
+# JAVA 1.8 als alternative hinzufügen
+ln -s /usr/java/default/bin/javac /usr/bin/javac18 -> javac Version 1.8
+sudo update-alternatives --install /usr/bin/javac javac /usr/bin/javac18 20
+
 # cordova compile for code-editor
 export PATH=$PATH:/home/holgre/.gradle/wrapper/dists/gradle-6.5-bin/6nifqtx7604sqp1q6g8wikw7p/gradle-6.5/bin/
 export ANDROID_SDK_ROOT=/opt/android-sdk
