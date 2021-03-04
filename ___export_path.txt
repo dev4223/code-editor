@@ -7,12 +7,12 @@ export JAVA_HOME=/usr/java/default
 
 in config.xml replace com.foxdebug.acodefree with com.foxdebug.acode
 
-rm platform android and add again
+# rm platform android and add again
 
 $ cordova platform rm android
 
 $ cordova platform add android
 
-in /mnt/veracrypt1/Projekte/__mine/code-editor/platforms/android/app/src/main/res/ alles mit -land- / -port- / -hint- löschen
+# in /mnt/veracrypt1/Projekte/__mine/code-editor/platforms/android/app/src/main/res/ alles mit -land- / -port- / -hint- löschen
 
 cordova build
